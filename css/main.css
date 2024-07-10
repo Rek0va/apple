@@ -1,0 +1,144 @@
+@import url(fonts.css);
+
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;  
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-family: 'mont';
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header__nav{
+    background: #282828;
+    padding: 5px;
+}
+.header__nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.header__nav-logoList{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.header__nav-logoList-links{
+    color: white;
+    display: flex;
+    gap: 30px;
+}
+.header__nav-list-icons{
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+}
+.header__content{
+    background: url(../images/bg.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+h1{
+    font-family: 'prosto';
+    color: white;
+    font-weight: 400;
+    font-size: 100px
+}
+.btn{
+    background: white;
+    padding: 15px;
+    margin: 38px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    color: #171718;;
+    font-size: 20px;
+}
+
+body{
+    background: #151515;
+}
+.section__one{
+    display: flex;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    align-items: center;
+    gap: 30px;
+}
+.section__two{
+    display: flex;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    align-items: center;
+    gap: 30px;
+}
+.section__three{
+    display: flex;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    align-items: center;
+    gap: 30px;
+}
+.cards{
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    width: 255px;
+    align-items: center;
+    font-weight: 800;
+    font-size: 20px;
+    gap: 10px;
+    padding: 15px; 
+}
+
+h4{
+    font-family: 'mont';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.btn__four{
+    background: #151515;
+    width: 161px;
+    height: 34px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section__four{
+    display: flex;
+    gap: 30px;
+    margin-top: 79px;
+}
+
+.footer{
+    background: #282828;
+    margin-top: 55px;
+    padding: 60px ;
+}

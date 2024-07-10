@@ -1,0 +1,15 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'prosto';
+    src: url(../fonts/ProstoOne-Regular.ttf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'mont';
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+    font-weight: 400;
+}
